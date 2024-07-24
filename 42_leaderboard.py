@@ -124,7 +124,7 @@ if __name__ == "__main__":
     print("\n\033[1mPress 1, 2 or 3 to choose an option:\n\033[0m")
     print("\033[94m1\033[0m Get user the Leaderboard without intermediate steps. This may take a while...\n")
     print("\033[94m2\033[0m Use local 42_user_list.txt file if you already have one\n")
-    print("\033[94m3\033[0m Get 42_user_list.txt file. You can edit the list and make it list shorter to avoid too many requests. Do it at your own risk\n")
+    print("\033[94m3\033[0m Get 42_user_list.txt file. You can edit the list and make it shorter to avoid too many requests. Do it at your own risk\n")
 
     option = input()
     if option == "1":
