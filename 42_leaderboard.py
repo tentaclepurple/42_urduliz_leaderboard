@@ -95,14 +95,14 @@ def get_access_token():
     url = "https://api.intra.42.fr/oauth/token"
 
     # Replace the values with your UID and Secret from your 42 registered app
-    uid = "u-s4t2ud-ca8799da64518f941f7a66f9693a5c426aa78da783ba9eec6cf79dee9740221b"
-    secret = "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"
+    uid = ""
+    secret = ""
     
     if not uid or not secret:
         print("Missing UID or Secret. Line 98 in 42_leaderboard.py")
         exit()
     data = {
-        "grant_tye": "client_credentials",
+        "grant_type": "client_credentials",
         "client_id": uid,
         "client_secret": secret
     }
