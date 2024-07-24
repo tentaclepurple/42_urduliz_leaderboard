@@ -94,7 +94,7 @@ def get_xp_data(token, users_data):
 def get_access_token():
     url = "https://api.intra.42.fr/oauth/token"
 
-    # Replace the values with your UID and Secret from your 42 registered app
+    # Replace the values with your UID and Secret from your registered 42 app
     uid = ""
     secret = ""
     
